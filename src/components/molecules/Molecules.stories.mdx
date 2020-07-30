@@ -1,0 +1,16 @@
+import { Meta, Story, Preview } from "@storybook/addon-docs/blocks"
+import * as stories from "./block/Block.stories.tsx";
+
+<Meta title="Molecules" />
+
+# Molecules
+
+They are the composition of one or more components of atoms. Here we begin to compose complex
+components and reuse some of those components. Molecules can have their own properties and
+create functionalities by using atoms, which alone have no function or action.
+
+## Feature
+
+<Preview>
+  <Story name="default">{stories.Basic()}</Story>
+</Preview>

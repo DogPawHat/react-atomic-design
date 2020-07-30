@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "apollographql.vscode-apollo",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "shardulm94.trailing-spaces"
+  ],
+  "unwantedRecommendations": [
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    "hookyqr.beautify",
+    "dbaeumer.jshint",
+    "prisma.vscode-graphql"
+  ]
+}

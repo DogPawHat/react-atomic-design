@@ -1,2 +1,21 @@
-flow-typed
-src/graphql/graphql-types.flow.js
+# nextjs
+.next
+next-env.d.ts
+.out
+out
+
+node_modules
+
+public
+
+# to avoid losing comments
+tsconfig.json
+
+# graphql codegen
+graphql.schema.json
+graphql.schema.wp.json
+src/@types/fragments.ts
+src/@types/operations.tsx
+src/operations.wp/types.tsx
+
+.circleci
